@@ -1,0 +1,13 @@
+{
+  "name": "qr-blockchain-contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "node:start": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
